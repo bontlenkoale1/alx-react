@@ -176,3 +176,4 @@ describe('updating the props of the component', () => {
     jest.restoreAllMocks();
   });
 });
+

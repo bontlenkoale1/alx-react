@@ -16,3 +16,4 @@ describe('<Login />', () => {
     expect(wrapper.exists());
   });
 });
+
