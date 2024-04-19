@@ -49,8 +49,8 @@ describe('context tests', () => {
 
 	it('should mount with defined user and create logoutSection', () => {
 		const dummy = {
-			email: 'fred@gmail.com',
-			password: 'pass123',
+			email: 'jason21@gmail.com',
+			password: 'jas0n2104',
 			isLoggedIn: true,
 		};
 		const wrapper = mount(
@@ -67,8 +67,8 @@ describe('context tests', () => {
 	it('should mount with defined user and call logOut when link is clicked', () => {
 		const testData = {
 			user: {
-				email: 'fred@gmail.com',
-				password: 'pass123',
+				email: 'jason21@gmail.com',
+				password: 'jas0n2104',
 				isLoggedIn: true,
 			},
 			logOut: () => {},
